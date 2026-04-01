@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO Title -->
+    <title>Alpha Integra | Clínica Odontológica en Xalapa</title>
+    <!-- SEO Meta Descriptions -->
+    <meta name="description" content="Alpha Integra es una Clínica Odontológica en Xalapa que ofrece servicios odontológicos integrales. Tratamientos de alta calidad en Odontología preventiva, estética, rehabilitación y cirugía con la Dra. Paula Ma. Sánchez.">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <i class="ph-fill ph-tooth logo-icon"></i>
+                Alpha Integra
+            </a>
+            <nav class="nav-links">
+                <a href="#inicio">Inicio</a>
+                <a href="#nosotros">Nosotros</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#especialista">Especialista</a>
+                <a href="#testimonios">Testimonios</a>
+                <a href="#contacto" class="btn btn-primary" style="padding: 0.5rem 1.5rem; color: white;">Agendar Cita</a>
+            </nav>
+            <div class="mobile-toggle">
+                <i class="ph ph-list"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="inicio">
+            <div class="bg-shape-1"></div>
+            <div class="bg-shape-2"></div>
+            <div class="container hero-grid">
+                <div class="hero-content reveal">
+                    <div class="title-badge">Tu sonrisa es tu presentación</div>
+                    <!-- H1 for SEO -->
+                    <h1 class="hero-title">Invierte en tu <span class="text-gradient">Salud Bucal</span>, invierte en ti.</h1>
+                    <p class="hero-desc">Al invertir en tu salud bucal, estás invirtiendo en tu autoestima y éxito personal. Descubre los beneficios de una sonrisa radiante y saludable.</p>
+                    <div class="hero-actions">
+                        <a href="#contacto" class="btn btn-primary" aria-label="Agenda tu valoración">Agenda tu valoración <i class="ph-bold ph-arrow-right"></i></a>
+                        <a href="#servicios" class="btn btn-secondary" aria-label="Conoce más de nuestros servicios">Conoce más</a>
+                    </div>
+                </div>
+                <!-- Reduced interaction area for semantic structure -->
+                <div class="hero-image-wrapper reveal" style="transition-delay: 0.2s;">
+                    <img src="./assets/hero_dental_art.png" alt="Odontología Moderna de Alta Tecnología" class="hero-image">
+                    <div class="floating-card glass card-1">
+                        <div class="fc-icon"><i class="ph-fill ph-shield-check"></i></div>
+                        <div class="fc-text">
+                            <h4>Tecnología</h4>
+                            <p>Última Generación</p>
+                        </div>
+                    </div>
+                    <div class="floating-card glass card-2">
+                        <div class="fc-icon"><i class="ph-fill ph-star"></i></div>
+                        <div class="fc-text">
+                            <h4>Trato Humano</h4>
+                            <p>100% Personalizado</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Nosotros Section -->
+        <section class="about" id="nosotros">
+            <div class="container about-grid">
+                <div class="about-image-wrapper reveal">
+                    <img src="./assets/clinic_interior.png" alt="Interior moderno de la clínica Alpha Integra" class="about-image">
+                </div>
+                <div class="about-content reveal" style="transition-delay: 0.2s;">
+                    <h2 class="section-title">Innovación y <span class="text-gradient">Bienestar</span></h2>
+                    <p>En Alpha Integra ofrecemos servicios odontológicos con un enfoque integral y un trato humano personalizado, poniendo a tu alcance tratamientos innovadores de gran calidad. Siempre pensando en el bienestar y futuro del paciente.</p>
+                    <p style="margin-top: 1rem;">Nos distinguimos por conjuntar los valores médicos de antaño con la tecnología y conocimientos actuales. Nuestra formación profesional se renueva día a día.</p>
+                    
+                    <div class="quote-box">
+                        "La única manera de hacer un trabajo genial es amando lo que haces; Si no lo has encontrado sigue buscando".
+                        <span class="quote-author">Patch Adams</span>
+                        <span class="quote-sub">Médico Estadounidense</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Servicios Section -->
+        <section class="services" id="servicios">
+            <div class="container">
+                <div class="text-center reveal" style="text-align: center;">
+                    <h2 class="section-title">Áreas de <span class="text-gradient">Especialidad</span></h2>
+                    <p class="section-subtitle" style="margin: 0 auto 3rem;">Tratamientos avanzados y especializados para cuidar del futuro de tus dientes.</p>
+                </div>
+                
+                <div class="services-grid">
+                    <div class="service-card reveal" style="transition-delay: 0.1s;" id="srv-preventiva">
+                        <i class="ph-duotone ph-tooth service-icon"></i>
+                        <h3>Odontología Preventiva</h3>
+                        <p>Prevenimos y evitamos la aparición de diferentes enfermedades para mantener tu boca sana a largo plazo.</p>
+                    </div>
+                    <div class="service-card reveal" style="transition-delay: 0.2s;" id="srv-estetica">
+                        <i class="ph-duotone ph-sparkle service-icon"></i>
+                        <h3>Odontología Estética</h3>
+                        <p>Mejoramos el aspecto visual de tu sonrisa, logrando armonía y aumentando tu confianza.</p>
+                    </div>
+                    <div class="service-card reveal" style="transition-delay: 0.3s;" id="srv-rehabilitacion">
+                        <i class="ph-duotone ph-first-aid service-icon"></i>
+                        <h3>Rehabilitación Bucal</h3>
+                        <p>Devolvemos la función, estética y armonía oral mediante tratamientos avanzados y seguros.</p>
+                    </div>
+                    <div class="service-card reveal" style="transition-delay: 0.4s;" id="srv-cirugia">
+                        <i class="ph-duotone ph-bandaids service-icon"></i>
+                        <h3>Cirugía Dental</h3>
+                        <p>Procedimientos quirúrgicos seguros y mínimamente invasivos para resolver diagnósticos complejos.</p>
+                    </div>
+                </div>
+
+                <!-- Enfermedades tratadas -->
+                <div class="diseases-wrapper reveal" style="margin-top: 4rem;">
+                    <div class="diseases-text">
+                        <h3 id="problemas-tratados">Principales padecimientos tratados</h3>
+                        <p class="section-subtitle">No esperes más. Resolvemos de manera eficiente tus molestias bucales.</p>
+                        <div style="margin-top: 2rem;">
+                            <span class="status-badge">
+                                <span class="status-dot"></span>
+                                Pacientes: Adultos y Niños
+                            </span>
+                        </div>
+                    </div>
+                    <ul class="diseases-list" aria-labelledby="problemas-tratados">
+                        <li class="disease-item">
+                            <i class="ph-fill ph-warning-circle"></i> Caries
+                        </li>
+                        <li class="disease-item">
+                            <i class="ph-fill ph-lightning"></i> Dolor de muelas
+                        </li>
+                        <li class="disease-item">
+                            <i class="ph-fill ph-arrows-out"></i> Anomalía dentaria
+                        </li>
+                        <li class="disease-item">
+                            <i class="ph-fill ph-waves"></i> Movilidad dentaria
+                        </li>
+                        <li class="disease-item">
+                            <i class="ph-fill ph-file-x"></i> Desgaste dental
+                        </li>
+                        <li class="disease-item">
+                            <i class="ph-fill ph-plus-circle"></i> Enfermedades parodontales
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Doctora Section -->
+        <section class="doctor" id="especialista">
+            <div class="container doctor-wrapper">
+                <div class="doctor-image-container reveal">
+                    <img src="./assets/doctor_portrait.png" alt="Dra. Paula Ma. Sánchez Rodríguez, Odontóloga Integral" class="doctor-image">
+                    <div class="experience-badge">
+                        <div class="exp-num">+20</div>
+                        <div class="exp-text">Años de<br>Experiencia</div>
+                    </div>
+                </div>
+                <div class="doctor-content reveal" style="transition-delay: 0.2s;">
+                    <div class="title-badge">Directora y Especialista</div>
+                    <h2 class="section-title">Dra. Paula Ma. <span class="text-gradient">Sánchez Rodríguez</span></h2>
+                    <p>Odontóloga integral a cargo del equipo de profesionales. Nos encanta ver que podemos resolver y dejar satisfechos a nuestros pacientes. Nuestra empatía nos permite entender verdaderamente las necesidades y panorama del paciente, construyendo importantes lazos de confianza.</p>
+                    
+                    <div class="cert-info">
+                        <div class="cert-item">
+                            <span>Cédula Profesional</span>
+                            <span>4448138</span>
+                        </div>
+                        <div class="cert-item" style="border-left: 1px solid #e2e8f0; padding-left: 2rem;">
+                            <span>Opiniones en Xalapa (246)</span>
+                            <div style="color: var(--secondary); display: flex; gap: 0.2rem; margin-top: 0.2rem;">
+                                <i class="ph-fill ph-star"></i>
+                                <i class="ph-fill ph-star"></i>
+                                <i class="ph-fill ph-star"></i>
+                                <i class="ph-fill ph-star"></i>
+                                <i class="ph-fill ph-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonios Section -->
+        <section class="testimonials" id="testimonios">
+            <div class="container" style="max-width: 900px;">
+                <h3 class="section-title text-center" style="margin-bottom: 3rem; text-align: center;">Opiniones de <span class="text-gradient">Pacientes</span></h3>
+                
+                <div class="reviews-list">
+                    <!-- Review 1 -->
+                    <div class="review-item reveal">
+                        <div class="review-header">
+                            <div class="review-user">
+                                <div class="review-avatar">G</div>
+                                <h4 class="review-name">GABRIELA Paredes Méndez</h4>
+                                <span class="verified-badge">Cita verificada <i class="ph-fill ph-check-circle" style="margin-left: 4px;"></i></span>
+                            </div>
+                            <div class="review-stars">
+                                <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
+                            </div>
+                        </div>
+                        <p class="review-text">Estoy muy contenta con la forma de trabajar y lo bien que explica si trabajo</p>
+                        <div class="review-footer">
+                            24 de marzo de 2026 &bull; AlphaIntegra Bugambilias &bull; Emergencia Dental &bull; <a href="#">Reportar</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Review 2 -->
+                    <div class="review-item reveal">
+                        <div class="review-header">
+                            <div class="review-user">
+                                <div class="review-avatar">G</div>
+                                <h4 class="review-name">GHG</h4>
+                                <span class="verified-badge">Cita verificada <i class="ph-fill ph-check-circle" style="margin-left: 4px;"></i></span>
+                            </div>
+                            <div class="review-stars">
+                                <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
+                            </div>
+                        </div>
+                        <p class="review-text">Muy atentas y manejan una buena explicación de las opciones para tratamiento</p>
+                        <div class="review-footer">
+                            21 de febrero de 2026 &bull; AlphaIntegra Bugambilias &bull; Resinas dentales &bull; <a href="#">Reportar</a>
+                        </div>
+                    </div>
+
+                    <!-- Review 3 -->
+                    <div class="review-item reveal">
+                        <div class="review-header">
+                            <div class="review-user">
+                                <div class="review-avatar">R</div>
+                                <h4 class="review-name">Rosita</h4>
+                                <span class="verified-badge">Cita verificada <i class="ph-fill ph-check-circle" style="margin-left: 4px;"></i></span>
+                            </div>
+                            <div class="review-stars">
+                                <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
+                            </div>
+                        </div>
+                        <p class="review-text">Todo muy bien, la Doctora es muy profesional y muy acertada, la recoger mucho</p>
+                        <div class="review-footer">
+                            17 de febrero de 2026 &bull; Alpha Integra Xalapa &bull; Resinas dentales &bull; <a href="#">Reportar</a>
+                        </div>
+                    </div>
+
+                    <!-- Review 4 -->
+                    <div class="review-item reveal">
+                        <div class="review-header">
+                            <div class="review-user">
+                                <div class="review-avatar">B</div>
+                                <h4 class="review-name">B.R.L.</h4>
+                                <span class="verified-badge">Cita verificada <i class="ph-fill ph-check-circle" style="margin-left: 4px;"></i></span>
+                            </div>
+                            <div class="review-stars">
+                                <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
+                            </div>
+                        </div>
+                        <p class="review-text">La Odontóloga es súper amable, meticulosa en la revisión, detallada en la explicación, cuidadosa, puntual, empática y genera mucha confianza.</p>
+                        <div class="review-footer">
+                            23 de enero de 2026 &bull; Alpha Integra Xalapa &bull; Visita Odontología &bull; <a href="#">Reportar</a>
+                        </div>
+                    </div>
+
+                    <!-- Review 5 -->
+                    <div class="review-item reveal">
+                        <div class="review-header">
+                            <div class="review-user">
+                                <div class="review-avatar">O</div>
+                                <h4 class="review-name">Omar Roque</h4>
+                                <span class="verified-badge">Cita verificada <i class="ph-fill ph-check-circle" style="margin-left: 4px;"></i></span>
+                            </div>
+                            <div class="review-stars">
+                                <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
+                            </div>
+                        </div>
+                        <p class="review-text">Excelente atención, puntualidad, y nos atendió a mi esposa y a mi toda la tarde hasta terminar con el tratamiento. Muy profesional.</p>
+                        <div class="review-footer">
+                            17 de enero de 2026 &bull; Alpha Integra Xalapa &bull; Visita Odontología &bull; <a href="#">Reportar</a>
+                        </div>
+                    </div>
+
+                    <!-- Review 6 -->
+                    <div class="review-item reveal">
+                        <div class="review-header">
+                            <div class="review-user">
+                                <div class="review-avatar">G</div>
+                                <h4 class="review-name">Gabriela Gómez</h4>
+                                <span class="verified-badge">Cita verificada <i class="ph-fill ph-check-circle" style="margin-left: 4px;"></i></span>
+                            </div>
+                            <div class="review-stars">
+                                <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
+                            </div>
+                        </div>
+                        <p class="review-text">Excelente trabajo y ambiente, una explicación clara de diagnóstico y tratamiento.</p>
+                        <div class="review-footer">
+                            22 de diciembre de 2025 &bull; Alpha Integra Xalapa &bull; Limpieza dental &bull; <a href="#">Reportar</a>
+                        </div>
+                    </div>
+
+                    <!-- Review 7 -->
+                    <div class="review-item reveal">
+                        <div class="review-header">
+                            <div class="review-user">
+                                <div class="review-avatar">V</div>
+                                <h4 class="review-name">V. Jorge Benítez R.</h4>
+                                <span class="verified-badge">Cita verificada <i class="ph-fill ph-check-circle" style="margin-left: 4px;"></i></span>
+                            </div>
+                            <div class="review-stars">
+                                <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
+                            </div>
+                        </div>
+                        <p class="review-text">Excelente trato y muy amable la Dra., además muy profesional.</p>
+                        <div class="review-footer">
+                            1 de diciembre de 2025 &bull; AlphaIntegra Bugambilias &bull; Visitas sucesivas Odontología &bull; <a href="#">Reportar</a>
+                        </div>
+                    </div>
+
+                    <!-- Review 8 -->
+                    <div class="review-item reveal">
+                        <div class="review-header">
+                            <div class="review-user">
+                                <div class="review-avatar">V</div>
+                                <h4 class="review-name">Virginia Martínez</h4>
+                                <span class="verified-badge">Cita verificada <i class="ph-fill ph-check-circle" style="margin-left: 4px;"></i></span>
+                            </div>
+                            <div class="review-stars">
+                                <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
+                            </div>
+                        </div>
+                        <p class="review-text">Atención de calidad, explicaciones claras sobre la necesidad de tratamiento</p>
+                        <div class="review-footer">
+                            10 de noviembre de 2025 &bull; Alpha Integra Cabo &bull; Consulta de valoración &bull; <a href="#">Reportar</a>
+                        </div>
+                    </div>
+
+                    <!-- Review 9 -->
+                    <div class="review-item reveal">
+                        <div class="review-header">
+                            <div class="review-user">
+                                <div class="review-avatar">L</div>
+                                <h4 class="review-name">LHC</h4>
+                                <span class="verified-badge">Cita verificada <i class="ph-fill ph-check-circle" style="margin-left: 4px;"></i></span>
+                            </div>
+                            <div class="review-stars">
+                                <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
+                            </div>
+                        </div>
+                        <p class="review-text">La Dra. es muy profesional tanto en la parte técnica como en la presicion en la explicación de lo que está observando y como procederá en el tratamiento.</p>
+                        <div class="review-footer">
+                            10 de noviembre de 2025 &bull; Alpha Integra Xalapa &bull; Visita Odontología &bull; <a href="#">Reportar</a>
+                        </div>
+                    </div>
+
+                    <!-- Review 10 -->
+                    <div class="review-item reveal">
+                        <div class="review-header">
+                            <div class="review-user">
+                                <div class="review-avatar">I</div>
+                                <h4 class="review-name">Iliana</h4>
+                                <span class="verified-badge">Cita verificada <i class="ph-fill ph-check-circle" style="margin-left: 4px;"></i></span>
+                            </div>
+                            <div class="review-stars">
+                                <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
+                            </div>
+                        </div>
+                        <p class="review-text">La atención es excelente, las instalaciones muy limpias.</p>
+                        <div class="review-footer">
+                            15 de octubre de 2025 &bull; Alpha Integra Xalapa &bull; Cita de diagnóstico y/o plan de tratamiento &bull; <a href="#">Reportar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" id="contacto">
+        <div class="container">
+            <div class="footer-grid reveal">
+                <div class="footer-col">
+                    <a href="#" class="logo" style="color: white; margin-bottom: 1.5rem;">
+                        <i class="ph-fill ph-tooth logo-icon" style="color: white;"></i>
+                        Alpha Integra
+                    </a>
+                    <p class="footer-desc">Ofreciendo servicios odontológicos integrales en Xalapa y áreas cercanas, con un trato personalizado, humano y la mejor tecnología disponible en la ciudad.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-btn" aria-label="Facebook"><i class="ph-fill ph-facebook-logo"></i></a>
+                        <a href="#" class="social-btn" aria-label="Instagram"><i class="ph-fill ph-instagram-logo"></i></a>
+                        <a href="#" class="social-btn" aria-label="WhatsApp"><i class="ph-fill ph-whatsapp-logo"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Contacto y Ubicación</h4>
+                    <div class="contact-item">
+                        <i class="ph-fill ph-phone-call"></i>
+                        <div>
+                            <span>Teléfono</span><br>
+                            <strong>228 186 1313</strong>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="ph-fill ph-map-pin-line"></i>
+                        <address style="font-style: normal;">
+                            <span>Dirección</span><br>
+                            Av. Adolfo Ruiz Cortines 3027<br>
+                            Virginia Cordero de Murillo Vidal,<br>
+                            91017 Xalapa-Enríquez, Ver.
+                        </address>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Horario y Consulta</h4>
+                    <div class="contact-item">
+                        <i class="ph-fill ph-clock"></i>
+                        <div>
+                            <span>Horario de Atención</span><br>
+                            Abre a las 10:00 a.m.<br>
+                            Cierra a las 8:00 p.m.
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="ph-fill ph-storefront"></i>
+                        <div>
+                            <span>Tipo de Consulta</span><br>
+                            Presencial (Adultos y Niños)
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copyright reveal" style="transition-delay: 0.3s;">
+                &copy; 2026 Alpha Integra Clínica Odontológica. Todos los derechos reservados.
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
